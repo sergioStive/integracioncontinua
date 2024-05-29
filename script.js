@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
             return response.json();
         })
+        
         .then(data => {
             const userList = document.getElementById('user-list');
             data.forEach(user => {
